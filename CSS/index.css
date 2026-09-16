@@ -1,8 +1,8 @@
 .btn1{
     font-size: 20px;
-    background-color: aquamarine;
-    color: black;
-    border-color: black;
+    background-color: rgb(135, 135, 189);
+    color: rgb(9, 28, 106);
+    border-color: rgb(252, 248, 248);
     border-radius: 10px;
 }
 
@@ -12,6 +12,6 @@
     align-items: center;
     margin-top: 2%;
     margin-bottom: 4%;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
 }

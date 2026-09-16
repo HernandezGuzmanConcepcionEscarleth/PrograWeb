@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 10</title>
-    <script src="JS/ejercicio10.js"></script>
+    <title>Calculadora de grados</title>
+    <link rel="Stylesheet" href="css/Ejercicio10.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="Stylesheet">
 </head>
-
 <body>
+    <div class="contenedor-formulario">
+        <h1>Calculadora</h1>
+        <p class="subtitulo">Calculadora de grados celsius a fahrenheit</p>
 
-    <h1>Conversión de Celsius a Fahrenheit</h1>
-
-    <label>Grados Celsius:</label>
-    <input type="number" id="celsius">
-
-    <br><br>
-
-    <button onclick="convertir()">Convertir</button>
-
-    <br><br>
-
-    <label>Grados Fahrenheit:</label>
-    <input type="text" id="fahrenheit" readonly>
-
+        <form class="formulario">
+            <div class="grupo-formulario">
+                <label for="grado-celsius">Grado Celsius °C</label>
+                <input type="number" id="grado-celsius" placeholder="Ej: 0">
+            </div>  
+            <div class="grupo-doble">
+                <div class="grupo-formulario">
+                    <label for="grado-fahrenheit">Grado fahrenheit °F</label>
+                    <input type="text" id="grado-fahrenheit" placeholder="32" readonly>    
+                </div>   
+                <button type="button" onclick="calcular()">Convertir</button>
+            </div>
+        </form>
+    </div>
+    <script src="js/Ejercicio10.js"></script>
 </body>
-
 </html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ejercicio 14</title>
+
+    <link rel="Stylesheet" href="css/Ejercicio14.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="Stylesheet">
+</head>
+
+<body>
+
+    <div class="contenedor-formulario">
+
+        <h1>Calculadora de Números</h1>
+        <p class="subtitulo">Número mayor, menor y promedio</p>
+
+        <form class="formulario">
+
+            <div class="grupo-formulario">
+                <label for="numeros">Ingresa los números</label>
+                <input type="text" id="numeros" placeholder="Ej: 10,20,30,40,50">
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="mayor">Número mayor</label>
+                <input type="text" id="mayor" readonly>
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="menor">Número menor</label>
+                <input type="text" id="menor" readonly>
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="promedio">Promedio</label>
+                <input type="text" id="promedio" readonly>
+            </div>
+
+            <button type="button" onclick="calcular()">Calcular</button>
+
+        </form>
+
+    </div>
+
+    <script src="js/Ejercicio14.js"></script>
+
+</body>
+
+</html>
