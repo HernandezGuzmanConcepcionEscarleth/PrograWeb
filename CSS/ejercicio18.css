@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #c6a1df;
+    color: #222;
+    padding: 40px 20px;
+}
+
+.contenedor-lista{
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: rgb(72, 34, 89);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(238, 226, 226, 0.08);
+}
+
+
+h1{
+    font-size: 28px;
+    color: #fbf9f9;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+h2{
+    font-size: 20px;
+    color: #f8f6f6;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.formulario-lista{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+label{
+    font-size: 15px;
+    font-weight: 500;
+    color: #fbfafa;
+}
+
+
+.form-control{
+    padding: 12px;
+    border-radius: 8px;
+}
+
+
+.form-control:focus{
+    border-color: #0ccfe4;
+    box-shadow: none;
+}
+
+
+.boton-agregar{
+    background-color: #cf70ec;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+
+.boton-agregar:hover{
+    background-color: #db47a2;
+    color: white;
+}
+
+
+#lista{
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.elemento{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: #f4f7f8;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+
+.boton-eliminar{
+    background-color: #e45858;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.boton-eliminar:hover{
+    background-color: #c94747;
+}

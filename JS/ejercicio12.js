@@ -7,14 +7,13 @@ function calcular() {
         return;
     }
 
-    // Tipo de cambio utilizado
     const tipoCambio = 18.50;
 
-    // Convertir pesos a dólares
+    //pesos a dólares
     const dolares = pesos / tipoCambio;
 
     console.log("Dólares: " + dolares);
 
-    // Mostrar resultado
+    //resultado
     document.getElementById('dolares').value = dolares.toFixed(2);
 }

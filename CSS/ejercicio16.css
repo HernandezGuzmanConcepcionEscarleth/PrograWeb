@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #dc9dc6;
+    color: #222;
+    padding: 40px 20px;
+}
+
+/* Contenedor de la calculadora */
+.contenedor-calculadora{
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: rgb(74, 13, 49);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Título */
+h1{
+    font-size: 28px;
+    color: #c3b3b3;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* Formulario */
+.formulario-calculadora{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Etiquetas */
+label{
+    font-size: 15px;
+    font-weight: 500;
+    color: #efebeb;
+}
+
+/* Campos */
+input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Cuando seleccionamos un campo */
+input:focus{
+    border-color: #96434c;
+}
+
+/* Contenedor de botones */
+.botones{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+/* Botones */
+button{
+    flex: 1;
+    background-color: #a85474;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Cuando pasamos el mouse */
+button:hover{
+    background-color: #09b5c8;
+}
+
+/* Resultado */
+#resultado{
+    background-color: #f4f7f8;
+    font-weight: 600;
+}

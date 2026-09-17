@@ -7,11 +7,11 @@ function calcular() {
         return;
     }
 
-    // Convertir kilómetros a millas
+    //kilómetros a millas
     const millas = kilometros * 0.621371;
 
     console.log("Millas: " + millas);
 
-    // Mostrar resultado
+    //resultado
     document.getElementById('millas').value = millas.toFixed(2);
 }
