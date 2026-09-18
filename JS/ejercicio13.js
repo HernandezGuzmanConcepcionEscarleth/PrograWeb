@@ -17,4 +17,4 @@ function calcular() {
 
     document.getElementById('puede-votar').value =
         puedevotar ? "Puedes votar" : "No puedes votar";
-}
+} 
